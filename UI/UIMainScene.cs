@@ -73,4 +73,8 @@ public class UIMainScene : MonoBehaviour
             InfoPopup.Name.text = content.GetName();
         }
     }
+    public void handleBackToMenuClick()
+    {
+        SceneManager.LoadScene(0);
+    }
 }
